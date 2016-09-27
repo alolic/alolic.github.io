@@ -1579,19 +1579,19 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: burlywood;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: sienna !important;
 			text-decoration: none;
 		}
 
 	strong, b {
 		color: #787878;
-		font-weight: 600;
+		font-weight: 800;
 	}
 
 	em, i {
@@ -1622,6 +1622,7 @@
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		margin-left: -25px;
 	}
 
 	h3 {
@@ -1667,7 +1668,8 @@
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		/*border-left: solid 6px #efefef;*/
+		border-left: solid 6px burlywood;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
@@ -1743,6 +1745,8 @@
 
 	header.major h2 {
 		font-size: 2em;
+		text-align: right;
+		margin: 0px;
 	}
 
 /* Form */
@@ -2261,6 +2265,10 @@
 		margin: 0px;
 	}
 
+	table#aboutTable td {
+	  padding: 0px;
+  }
+
 		table tbody tr {
 			border: solid 1px #efefef;
 			border-left: 0;
@@ -2578,15 +2586,15 @@
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 6em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
-			/*border-top: solid 2px #efefef;*/
-			border-top: solid 1px lightgrey;
+			/*border-top: solid 1px lightgrey;*/
+			border-top: solid 1px burlywood;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
